@@ -1,5 +1,5 @@
 require 'pry'
-extend 'lib/concerns/memorable.rb'
+extend Memorable
 class Song
   attr_accessor :name
   attr_reader :artist
